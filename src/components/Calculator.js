@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import calculate from './calculate';
 import './calculator.css';
 
 class Calculator extends Component {
