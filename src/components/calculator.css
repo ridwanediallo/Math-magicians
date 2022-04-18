@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: Gotham Rounded, sans-serif;
   font-weight: normal;
@@ -7,6 +9,7 @@
 body {
   padding: 0;
   margin: 0;
+
   /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
 }
 
@@ -17,7 +20,6 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-
 }
 
 .calculator-grid > button {
@@ -25,11 +27,12 @@ body {
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
+
   /* background-color: rgba(255, 255, 255, .75); */
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .span-two {
@@ -38,7 +41,7 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -49,7 +52,7 @@ body {
 }
 
 .output .previous-operand {
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
 
@@ -59,13 +62,13 @@ body {
 }
 
 .gray-bg {
-    background-color: rgba(236, 236, 236, 0.925);
+  background-color: rgba(236, 236, 236, 0.925);
 }
+
 .orange-bg {
-    background-color: rgba(236, 117, 19, 0.925);
+  background-color: rgba(236, 117, 19, 0.925);
 }
 
-.buttons{
+.buttons {
   border: 2px solid #000;
-
 }
