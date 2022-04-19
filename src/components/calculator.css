@@ -10,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
 }
 
 .container {
@@ -43,7 +42,6 @@ body {
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
-  /* background-color: rgba(255, 255, 255, .75); */
 }
 
 .keypad > button:hover {
@@ -80,6 +78,7 @@ body {
 .gray-bg {
   background-color: rgba(236, 236, 236, 0.925);
 }
+
 .orange-bg {
   background-color: rgba(236, 117, 19, 0.925);
 }
