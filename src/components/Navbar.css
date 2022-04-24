@@ -1,11 +1,19 @@
+.container {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin-right: 50px;
 }
