@@ -5,6 +5,7 @@ import Calculator from './components/Calculator';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Quotes from './components/Quotes';
+import Footer from './components/Footer';
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
       <Route path="/quote" element={<Quotes />} />
       <Route path="/calculator" element={<Calculator />} />
     </Routes>
+    <Footer />
   </>
 );
 
