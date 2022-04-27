@@ -8,27 +8,25 @@
 
 ## Milestones
 
-- [x] Milestone 1: **Project setup**
-- [ ] Milestone 2: **Components**
-- [ ] Milestone 3: **Events**
-- [ ] Milestone 4: **Full website**
+- [✔️] Milestone 1: **Project setup**
+- [✔️] Milestone 2: **Components**
+- [✔️] Milestone 3: **Events**
+- [x] Milestone 4: **Full website**
 - [ ] Milestone 5: **Tests**
 - [ ] Milestone 6: **Deploy**
 
 ## sneak peek
 
-![Application screenshot]()
+![Application screenshot](src/calculator.png)
 
 ## Getting Started
 
 **Prerequisites:** A Web Browser (preferably FireFox or Chrome)
-To get a local copy up and running follow these simple example steps.
-
-### **Option 1**
+To get a local copy up and running follow these simple exampl
 
 #### Live demo
 
-[Math Magicians Website]() _Coming Soon_
+[Math Magicians Website](https://ridwanediallo.github.io/Math-magicians/) _Coming Soon_
 
 ### **Option 2**
 
