@@ -22,8 +22,6 @@ h2 {
   position: absolute;
   transform: translate(-50%, -50%);
   width: 270px;
-  /* text-align: center; */
-  /* align-self: left; */
 }
 
 .keypad {
@@ -73,5 +71,3 @@ h2 {
 .buttons {
   border: 2px solid #000;
 }
-
-
