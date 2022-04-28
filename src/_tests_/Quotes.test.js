@@ -1,8 +1,9 @@
-import renderer from 'react-test-renderer';
+import { render} from '@testing-library/react';
+
 
 import Quotes from '../components/Quotes';
 
-it('render quote component', () => {
-  const tree = renderer.create(<Quotes />).toJSON();
-  expect(tree).toMatchSnapshot();
+test('Should render Quote', () => {
+  const {container} = render(<Quotes />);
+  expect(container).toBeInTheDocument();
 });
