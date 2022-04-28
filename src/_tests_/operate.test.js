@@ -48,7 +48,7 @@ describe('division', () => {
   });
 
   test('divide -1 by 0', () => {
-    expect(operate(-1, 0, '÷')).toBe('Can\'t divide by 0.');
+    expect(operate(-1, 0, '÷')).toBe("Can't divide by 0.");
   });
 
   test('divide -1 by -1', () => {
