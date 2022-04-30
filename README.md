@@ -36,6 +36,7 @@ To get a local copy up and running follow these simple exampl
 - Go to the Project `cd "Math-magicians`
 - Run `npm install` to install the _dependencies_
 - Run `npm start` to run the live server.
+- Run `npm test` to run the tests.
 
 ## About me
 
