@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 50px 0 0 50px;
+}
+
+.calculator {
+  top: 50%;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+}
+
+.keypad > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+}
+
+.keypad > button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 75px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.gray-bg {
+  background-color: rgba(236, 236, 236, 0.925);
+}
+
+.orange-bg {
+  background-color: rgba(236, 117, 19, 0.925);
+}
+
+.buttons {
+  border: 2px solid #000;
+}
