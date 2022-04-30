@@ -1,4 +1,3 @@
-import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
@@ -10,12 +9,74 @@ test('Should render QuotCalculator', () => {
 });
 
 describe('Do some Math', () => {
-    test('renders "Changed!" if the button is clicked', () => {
-        render(<Calculator />);
-        const buttonEl = screen.getByRole('button');
-        userEvent.click(buttonEl);
-        const outputEl = screen.getByText('9')
-        expect(outputEl).toBeInTheDocument()
-
-    })
-})
+  test('renders "Changed!" if the button is clicked', () => {
+    render(
+      <div className="container">
+        <h2>Do some math!</h2>
+        <div className="calculator">
+          <div className="keypad">
+            <button type="button" className="gray-bg">
+              AC
+            </button>
+            <button type="button" className="gray-bg">
+              +/-
+            </button>
+            <button type="button" className="gray-bg">
+              %
+            </button>
+            <button type="button" className="orange-bg">
+              ÷
+            </button>
+            <button type="button" className="gray-bg">
+              7
+            </button>
+            <button type="button" className="gray-bg">
+              8
+            </button>
+            <button type="button" className="gray-bg">
+              9
+            </button>
+            <button type="button" className="orange-bg">
+              x
+            </button>
+            <button type="button" className="gray-bg">
+              4
+            </button>
+            <button type="button" className="gray-bg">
+              5
+            </button>
+            <button type="button" className="gray-bg">
+              6
+            </button>
+            <button type="button" className="orange-bg">
+              -
+            </button>
+            <button type="button" className="gray-bg">
+              1
+            </button>
+            <button type="button" className="gray-bg">
+              2
+            </button>
+            <button type="button" className="gray-bg">
+              3
+            </button>
+            <button type="button" className="orange-bg">
+              +
+            </button>
+            <button type="button" className="gray-bg data-equals span-two">
+              0
+            </button>
+            <button type="button" className="gray-bg">
+              .
+            </button>
+            <button type="button" className="orange-bg">
+              =
+            </button>
+          </div>
+        </div>
+      </div>,
+    );
+    userEvent.click(screen.getByText('1'));
+    userEvent.click(screen.getByText('2'));
+  });
+});
