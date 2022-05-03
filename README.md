@@ -11,9 +11,9 @@
 - [✔️] Milestone 1: **Project setup**
 - [✔️] Milestone 2: **Components**
 - [✔️] Milestone 3: **Events**
-- [x] Milestone 4: **Full website**
-- [ ] Milestone 5: **Tests**
-- [ ] Milestone 6: **Deploy**
+- [✔️] Milestone 4: **Full website**
+- [✔️] Milestone 5: **Tests**
+- [✔️] Milestone 6: **Deploy**
 
 ## sneak peek
 
