@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple exampl
 
 #### Live demo
 
-[Math Magicians Website](https://ridwanediallo.github.io/Math-magicians/) _Coming Soon_
+[Math Magicians Website](https://rid-math-magicians.netlify.app)
 
 ### **Option 2**
 
