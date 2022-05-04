@@ -1,6 +1,6 @@
 import operate from '../logic/operate';
 
-describe('addition', () => {
+describe('addition: ', () => {
   test('add 3 to 1', () => {
     expect(operate(1, 3, '+')).toBe('4');
   });
@@ -14,7 +14,7 @@ describe('addition', () => {
   });
 });
 
-describe('subtraction', () => {
+describe('subtraction: ', () => {
   test('subtract 3 from 1', () => {
     expect(operate(1, 3, '-')).toBe('-2');
   });
@@ -28,7 +28,7 @@ describe('subtraction', () => {
   });
 });
 
-describe('multiplication', () => {
+describe('multiplication: ', () => {
   test('multiply 3 by 1', () => {
     expect(operate(1, 3, 'x')).toBe('3');
   });
@@ -42,7 +42,7 @@ describe('multiplication', () => {
   });
 });
 
-describe('division', () => {
+describe('division: ', () => {
   test('divide 3 by 1', () => {
     expect(operate(3, 1, '÷')).toBe('3');
   });

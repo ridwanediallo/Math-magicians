@@ -1,11 +1,17 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import renderer from 'react-test-renderer';
 
 import Calculator from '../components/Calculator';
 
 test('Should render QuotCalculator', () => {
   const { container } = render(<Calculator />);
   expect(container).toBeInTheDocument();
+});
+
+it('renders correctly', () => {
+  const tree = renderer.create(<Calculator />).toJSON();
+  expect(tree).toMatchSnapshot();
 });
 
 describe('Do some Math', () => {
