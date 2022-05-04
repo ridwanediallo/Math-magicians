@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
+describe('Navbar: ', () => {
 test('should render NavBar', () => {
   render(
     <nav className="nav">
@@ -28,4 +29,5 @@ test('should render NavBar', () => {
   userEvent.click(screen.getByText('Quote'));
   userEvent.click(screen.getByText('Home'));
   userEvent.click(screen.getByText('Calculator'));
+});
 });
