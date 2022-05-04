@@ -80,7 +80,7 @@ describe('Do some Math', () => {
             </button>
           </div>
         </div>
-      </div>
+      </div>,
     );
     userEvent.click(screen.getByText('1'));
     userEvent.click(screen.getByText('2'));
